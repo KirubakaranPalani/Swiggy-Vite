@@ -1,0 +1,36 @@
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.shimmer-cards {
+    margin: 5px;
+    width: 290px;
+    height:550px;
+    background-color:#f0f0f0;
+}
+
+/* Filter button */
+.filter{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.shimmer-button, .shimmer-input {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    /* padding: 10px; */
+    background: linear-gradient(110deg, #eee 20%, #ddd 50%, #eee 80%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+  }
+  .shimmer-input{
+    width: 220px;
+    padding-right: 10px;
+  }
+  .shimmer-button{
+    margin-left: 20px;
+  }

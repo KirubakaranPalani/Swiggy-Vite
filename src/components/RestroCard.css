@@ -1,0 +1,14 @@
+.res-img{
+    width: 100%;
+    height: 300px;
+}
+.res-card{
+    margin: 5px;
+    padding: 5px;
+    width: 290px;
+    height: 550px;
+}
+.res-card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
